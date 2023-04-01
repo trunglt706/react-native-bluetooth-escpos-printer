@@ -28,7 +28,11 @@
             initPrinter[4]=10;
             [RNBluetoothManager writeValue:[NSData dataWithBytes:initPrinter length:5] withDelegate:self];
             _now = -1;
+<<<<<<< HEAD
             [NSThread sleepForTimeInterval:0.001f];
+=======
+            [NSThread sleepForTimeInterval:0.002f];
+>>>>>>> f4a57c895e3957d6717cbee57c7bb3133a03eb76
         }else {
             [self print];
         }
